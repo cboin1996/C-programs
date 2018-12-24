@@ -42,7 +42,7 @@ int main(void) {
 				
 		totalweight = weight1;
 		average = (mark1 * weight1) / (weight1);
-				marknum++;
+			marknum++;
 		}
 	
 	if (marknum <= markNumTot) {
@@ -51,7 +51,7 @@ int main(void) {
 				
 		totalweight = weight1 + weight2;
 		average = ((mark1 * weight1) + (mark2 * weight2)) / totalweight;
-				marknum++;
+			marknum++;
 		}
 	
 		
@@ -61,7 +61,7 @@ int main(void) {
 				
 		totalweight = weight1 + weight2 + weight3;
 		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3)) / totalweight;
-				marknum++;
+			marknum++;
 		}
 	
 		
@@ -71,7 +71,7 @@ int main(void) {
 				
 		totalweight = weight1 + weight2 + weight3 + weight4;
 		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4)) / totalweight;
-				marknum++;
+			marknum++;
 		}	
 	
 	
@@ -81,7 +81,7 @@ int main(void) {
 				
 		totalweight = weight1 + weight2 + weight3 + weight4 + weight5;
 		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5)) / totalweight;
-						marknum++;
+			marknum++;
 		}
 	
 		
@@ -90,7 +90,7 @@ int main(void) {
 				scanf("%f %f", &mark6, &weight6);
 		totalweight = weight1 + weight2 + weight3 + weight4 + weight5 + weight6;
 		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6)) / totalweight;
-						marknum++;
+			marknum++;
 		}
 
 			
@@ -99,7 +99,7 @@ int main(void) {
 				scanf("%f %f", &mark7, &weight7);
 		totalweight = weight1 + weight2 + weight3 + weight4 + weight5 + weight6 + weight7;
 		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7)) / totalweight;
-						marknum++;
+			marknum++;
 		}
 	
 			
@@ -107,8 +107,8 @@ int main(void) {
 		printf("Enter mark %d and its weight:  ", marknum);
 				scanf("%f %f", &mark8, &weight8);
 		totalweight = weight1 + weight2 + weight3 + weight4 + weight5 + weight6 + weight7 + weight8;
-											average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7) + (mark8 * weight8)) / totalweight;
-						marknum++;
+		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7) + (mark8 * weight8)) / totalweight;
+			marknum++;
 		}
 	
 	
@@ -116,8 +116,8 @@ int main(void) {
 		printf("Enter mark %d and its weight:  ", marknum);
 				scanf("%f %f", &mark9, &weight9);
 		totalweight = weight1 + weight2 + weight3 + weight4 + weight5 + weight6 + weight7 + weight8 + weight9;
-														average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7) + (mark8 * weight8) + (mark9 * weight9)) / totalweight;
-						marknum++;		
+		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7) + (mark8 * weight8) + (mark9 * weight9)) / totalweight;
+			marknum++;		
 		}
 	
 		
@@ -126,8 +126,8 @@ int main(void) {
 				scanf("%f %f", &mark10, &weight10);
 		
 		totalweight = weight1 + weight2 + weight3 + weight4 + weight5 + weight6 + weight7 + weight8 + weight9 + weight10;
-														average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7) + (mark8 * weight8) + (mark9 * weight9) + (mark10 * weight10)) / totalweight;
-						marknum++;
+		average = ((mark1 * weight1) + (mark2 * weight2) + (mark3 * weight3) + (mark4 * weight4) + (mark5 * weight5) + (mark6 * weight6) + (mark7 * weight7) + (mark8 * weight8) + (mark9 * weight9) + (mark10 * weight10)) / totalweight;
+			marknum++;
 		}
 	
 	printf("Your average is: %.2f\n\n", average);
